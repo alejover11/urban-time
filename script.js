@@ -55,7 +55,7 @@ function mostrarProductos() {
 
   contenedor.innerHTML = filtrados.map(producto => {
     const mensaje = `Hola, estoy interesado en la ${producto.nombre} referencia ${producto.referencia}`;
-    const linkWhatsApp = `https://wa.me/573167141112?text=${encodeURIComponent(mensaje)}`;
+    const linkWhatsApp = `https://wa.me/573017399372?text=${encodeURIComponent(mensaje)}`;
 
     return `
       <div class="card">
@@ -146,4 +146,5 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }, 5000); // Cambia cada 5 segundos
   }
+
 });
